@@ -13,8 +13,10 @@ class BookingPage extends Component{
                         let roomOptions = element.roomOptions;
                         return(
                             <div key={roomDetail.id} className='booking__page container'>
-                                <RoomDetails data={roomDetail} />
-                                <RoomOptions data={roomOptions}/>
+                                <div className="box__shadow">
+                                    <RoomDetails data={roomDetail} />
+                                    <RoomOptions data={roomOptions}/>
+                                </div>
                             </div>
 
                         )

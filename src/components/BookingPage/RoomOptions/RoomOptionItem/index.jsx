@@ -9,9 +9,10 @@ class RoomOptionItem extends Component{
         }
     }
     render(){
-        const {cancelation, payInfo, facilities, price, id} = this.state.data;
+        const {cancelation, payInfo, facilities, price, id, status=null} = this.state.data;
+        const lightBlue = status ? 'lightBlue' : '';
         return(
-            <div className='room__option__item'>
+            <div className={`room__option__item ${lightBlue}`}>
                 <div className='priceInfo'>
                     <span className='cancelation'>{cancelation.text}{tooltip(cancelation)}</span>
                     <span className='pay__info'>{payInfo.text}{tooltip(payInfo)}</span>
