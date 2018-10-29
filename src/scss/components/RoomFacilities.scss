@@ -1,0 +1,27 @@
+.room__facilities{
+  @include flex($wrap: wrap, $justify: space-between);
+  width: 370px;
+  padding: 5px 0;
+  font-family: $font_ralewayRegular;
+  font-size: 14px;
+  & > *{
+    @include room__details__point()
+  }
+}
+
+.wifi{
+  background: url("../images/wifi.png") no-repeat 0 50%/ 25px;
+}
+
+.shower{
+  background: url("../images/shower.png") no-repeat 0 50%/ 20px;
+}
+
+.safe{
+  background: url("../images/safe.png") no-repeat 0 50%/ 25px;
+}
+
+.condition{
+  background: url("../images/condition.png") no-repeat 0 50%/ 25px;
+}
+

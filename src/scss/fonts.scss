@@ -1,0 +1,45 @@
+//=======================Raleway
+@font-face {
+  font-family: 'RalewayBold';
+  src: url('../fonts/Raleway/RalewayBold.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: 'RalewayMedium';
+  src: url('../fonts/Raleway/RalewayMedium.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url('../fonts/Raleway/RalewayRegular.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: 'RalewaySemiBold';
+  src: url('../fonts/Raleway/RalewaySemiBold.ttf') format("truetype")
+}
+
+//=======================Roboto
+@font-face {
+  font-family: 'RobotoBold';
+  src: url( '../fonts/Raleway/RobotoBold.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('../fonts/Raleway/RobotoMedium.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('../fonts/Raleway/RobotoRegular.ttf') format("truetype")
+}
+
+
+$font_robotoBold: 'RobotoBold', 'sans-serif';
+$font_robotoMedium: 'RobotoMedium', 'sans-serif';
+$font_robotoRegular: 'RobotoRegular', 'sans-serif';
+$font_ralewayBold: 'RalewayBold', 'sans-serif';
+$font_ralewayMedium: 'RalewayMedium', 'sans-serif';
+$font_ralewayRegular: 'RalewayRegular', 'sans-serif';
+$font_ralewaySemiBold: 'RalewaySemiBold', 'sans-serif';

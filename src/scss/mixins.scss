@@ -1,0 +1,14 @@
+@mixin flex($align: inherit, $justify: inherit, $direction: inherit, $wrap: inherit){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+@mixin room__details__point(){
+    flex-basis: 45%;
+    min-height: 40px;
+    padding-left: 40px;
+    @include flex($align: center);
+}

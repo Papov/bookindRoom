@@ -1,0 +1,38 @@
+.room__details{
+  background: $background_white;
+  display: flex;
+}
+
+.room__title {
+  padding-top: 10px;
+  display: block;
+  font-family: $font_ralewayBold;
+}
+
+.room__description{
+  width: 100%;
+  padding: 0 20px;
+  box-shadow: inset 0 -1px 0 0 $color_lightGray;
+}
+
+.moreDetails {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: $color_lightBlue;
+  cursor:pointer;
+  font-family: $font_robotoBold;
+  transition: .2s;
+  padding-bottom: 10px;
+  &:hover{
+    color: lighten($color_lightBlue, 10%)
+  }
+}
+
+.in__room__price{
+  font-family: $font_ralewayRegular;
+  font-size: 13px;
+  padding: 10px 15px;
+  display: block;
+  background-color: $background_white;
+}

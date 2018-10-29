@@ -1,0 +1,103 @@
+[
+	{
+		"roomDetail":{
+			"id": "dsfsd23",
+			"images":{
+				"text":{
+					"name": "Superior Double Room",
+					"plus": "Garden view",
+					"superPlus": "Best breakfast"
+				},
+				"src": [
+					"../images/carousel_2.jpg",
+					"url",
+					"url",
+					"url"
+				]
+			},
+			"settings": {
+				"square": "Square 23 m²",
+				"bed": "King-size bed or Double bed",
+				"people": "2 adults",
+				"smoking": "No smoking"
+			},
+			"facilities": {
+				"wifi": "Free WI-FI",
+				"shower": "Shower",
+				"safe": "Free in-room safe",
+				"condition": "Air conditioning"
+			},
+			"inRoomPricing": "Not included in room price: 7% VAT, 5% Sity Tax"
+		},
+		"roomOptions": [
+			{
+					"cancelation": {
+						"tooltip": "cancelation tooltip",
+						"text": "Free cancelation"
+					},
+					"payInfo": {
+						"tooltip": "payInfo tooltip",
+						"text": "Pay at hotel"
+					},
+				"facilities": {
+					"wifiFree": {
+						"text": "Paid wi-fi"
+					},
+					"breakfast": {
+						"tooltip": "breakfast Tooltip",
+						"text": "Breakfast included"
+					},
+					"bedSize": {
+						"text":"King-size bed"
+					},
+					"pool": {
+						"text": "Access to swimming pool"
+					}
+				},
+				"price": {
+					"price": {
+						"text":"22 848 $"
+					},
+					"nights": {
+						"text":"4 nights"
+					}
+				},
+				"id": "d3d3r3q34sq"
+			},
+			{
+				"cancelation": {
+					"tooltip": "cancelation tooltip",
+					"text": "Free cancelation"
+				},
+				"payInfo": {
+					"tooltip": "payInfo tooltip",
+					"text": "1€ deposit"
+				},
+				"facilities": {
+					"wifiPaid": {
+						"text": "Paid wi-fi",
+						"tooltip": "paid info"
+					},
+					"allIncluded": {
+						"text": "All included"
+					},
+					"bedSize": {
+						"text":"King-size bed"
+					}
+				},
+				"price": {
+					"price": {
+						"text":"23 520 $"
+					},
+					"discountPrice":{
+						"text": "24 520 $"
+					},
+					"nights": {
+						"text":"Best price for 4 nights"
+					}
+				},
+				"id": "d3d3r3q323"
+			}
+	]
+	}
+]

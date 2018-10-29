@@ -1,0 +1,27 @@
+.room__settings {
+  @include flex($wrap: wrap, $justify: space-between);
+  width: 370px;
+  padding: 5px 0;
+  box-shadow: 0 1px 0 0 $color_lightGray;
+  font-family: $font_ralewayRegular;
+  font-size: 14px;
+  & > *{
+    @include room__details__point();
+  }
+}
+
+.square{
+  background: url("../images/square.png") no-repeat 0 50%/ 25px;
+}
+
+.people{
+  background: url("../images/people.png") no-repeat 0 50%/ 18px;
+}
+
+.smoking{
+  background: url("../images/smoking.png") no-repeat 0 50%/ 25px;
+}
+
+.bed{
+  background: url("../images/bed.png") no-repeat 0 50%/ 25px;
+}

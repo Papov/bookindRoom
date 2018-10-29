@@ -1,0 +1,132 @@
+.room__option__item {
+  height: 125px;
+  box-shadow: 0 0 0 1px $color_lightGray;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+  & > * {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    font-family: $font_ralewayRegular;
+    font-size: 13px;
+    & > *{
+      padding: 5px 0 5px 45px;
+      position: relative;
+      width: max-content;
+      width: -moz-max-content;
+    }
+  }
+}
+
+.bookButton__container {
+  align-items: center;
+  justify-content: center;
+}
+
+.bookButton{
+  padding:0;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  line-height: 40px;
+  background-color: $color_green;
+  color: #fff;
+  border-radius: 4px;
+  font-family: $font_robotoBold;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .2s;
+  &:hover,&:focus{
+    background-color: lighten($color_green, 10%);
+  }
+  &.active{
+      box-shadow: inset 0 0 2px .5px #333;
+      background-color: $color_green
+  }
+}
+
+
+//=================IMAGES OPTION
+.pool {
+  font-family: $font_ralewaySemiBold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url("../images/pool.png") no-repeat 15px 50%/22px $color_lightBlue;
+  height: 30px;
+  line-height: 30px;
+  padding:0 15px 0 45px;
+  border-radius: 0 4px 0 4px;
+  color: #fff;
+  font-size: 12px;
+  &::before{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 900px;
+    height: 3px;
+    background: $color_lightBlue;
+    content: '';
+  }
+}
+
+.cancelation{
+  background: url('../images/checked.png') no-repeat 10px 50%/20px;
+  color: $color_green;
+  font-family: $font_ralewayMedium;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.wifiPaid{
+  background: url('../images/wifiPaid.png') no-repeat 10px 50%/20px;
+}
+
+.wifiFree{
+  background: url('../images/wifiFree.png') no-repeat 10px 50%/20px;
+}
+
+.bedSize{
+  background: url('../images/bedSize.png') no-repeat 10px 50%/20px;
+}
+
+.breakfast{
+  background: url('../images/breakfast.png') no-repeat 10px 50%/20px;
+}
+
+.price{
+  font-size: 30px;
+  font-family: $font_robotoRegular;
+}
+
+.nights{
+  font-family: $font_robotoMedium;
+  font-size: 13px;
+}
+
+.discountPrice + .nights{
+  color: $color_green;
+  font-weight: bold;
+}
+
+.discountPrice {
+  font-family: $font_robotoRegular;
+  font-size: 25px;
+  text-decoration: line-through;
+  color: $color_mutedGray;
+}
+
+.room__price{
+  padding: 10px 0;
+  & > *{
+    padding: 0;
+  }
+}
+
+.allIncluded{
+  background: url('../images/allIncluded.png') no-repeat 10px 50%/20px;
+}

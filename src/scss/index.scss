@@ -1,0 +1,27 @@
+@import "./fonts";
+@import "./colors";
+@import "./mixins";
+@import "./components/RoomPreview";
+@import "./components/BookingPage";
+@import "./components/RoomDetails";
+@import "./components/RoomSetting";
+@import "./components/RoomFacilities";
+@import "./components/RoomOptions";
+@import "./components/RoomOptionItem";
+
+body{
+  margin: 0;
+  padding: 0;
+  color: $color_black;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 920px;
+  width: 100%;
+  margin: auto;
+}
+
