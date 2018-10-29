@@ -4,13 +4,10 @@
 }
 
 .tooltip {
-  position: absolute;
   height: 12px;
   width: 12px;
   display: block;
   background: url("../images/info.png") no-repeat 50%/11px;
-  transform: translate(15px,calc(50% + 2px));
-  right: 0;
-  top: 0;
   cursor: pointer;
+  margin-left: 2px;
 }

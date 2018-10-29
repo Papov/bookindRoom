@@ -8,6 +8,7 @@
 
 @mixin room__details__point(){
     flex-basis: 45%;
+    max-width: 45%;
     min-height: 40px;
     padding-left: 40px;
     @include flex($align: center);

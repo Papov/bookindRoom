@@ -16,8 +16,8 @@
     & > *{
       padding: 5px 0 5px 45px;
       position: relative;
-      width: max-content;
-      width: -moz-max-content;
+      display: flex;
+      align-items: center;
     }
   }
 }
@@ -39,6 +39,7 @@
   font-family: $font_robotoBold;
   font-weight: bold;
   cursor: pointer;
+  display: block;
   transition: .2s;
   &:hover,&:focus{
     background-color: lighten($color_green, 10%);
